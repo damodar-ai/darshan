@@ -9,7 +9,7 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: #009579;
+  background: #1f4e4e;
 }
 .container{
   position: absolute;
@@ -18,7 +18,7 @@ body{
   transform: translate(-50%,-50%);
   max-width: 430px;
   width: 100%;
-  background: #fff;
+  background: #abaaaa;
   border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
@@ -49,24 +49,24 @@ body{
    padding: 0 15px;
    font-size: 17px;
    margin-bottom: 1.3rem;
-   border: 1px solid #ddd;
+   border: 1px solid #a8a7a7;
    border-radius: 6px;
    outline: none;
  }
  .form input:focus{
-   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+   box-shadow: 0 1px 0 rgba(234, 203, 203, 0.2);
  }
 .form a{
   font-size: 16px;
-  color: #009579;
+  color: #182d29;
   text-decoration: none;
 }
 .form a:hover{
   text-decoration: underline;
 }
 .form input.button{
-  color: #fff;
-  background: #009579;
+  color: #605858;
+  background: #ff0000;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -76,13 +76,14 @@ body{
 }
 .form input.button:hover{
   background: #006653;
+
 }
 .signup{
   font-size: 17px;
   text-align: center;
 }
 .signup label{
-  color: #009579;
+  color: #0bf973;
   cursor: pointer;
 }
 .signup label:hover{
@@ -125,7 +126,7 @@ body{
 
 /* make the buttons inside the div with class name intro look attractive */
 .intro a {
-  background-color: #4CAF50;
+  background-color: #4c4faf;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -135,6 +136,7 @@ body{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 /* center the buttons inside the div with class name intro */
@@ -148,7 +150,7 @@ body{
 
 /* make the buttons inside the div with class name intro look attractive when hovered */
 .intro a:hover {
-  background-color: #45a049;
+  background-color: #024606;
 }
 
 /* center the div named dashboard */
