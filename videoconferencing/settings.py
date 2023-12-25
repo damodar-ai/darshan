@@ -79,8 +79,11 @@ WSGI_APPLICATION = 'videoconferencing.wsgi.application'
 
 import dj_database_url
 
-DATABASES={
-    "default":dj_database_url.parse('postgres://codedarshandb_user:OWutuI9GcyKAMNcyNuT1utqnAXddWPLl@dpg-cm454cmn7f5s73btadng-a/codedarshandb')
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
